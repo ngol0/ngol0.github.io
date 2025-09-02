@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave the presentation at ISNN 2025 on August 24th :sparkles: :smile:
+I gave a presentation at ISNN 2025 :sparkles: :smile:
