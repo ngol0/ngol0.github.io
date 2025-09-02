@@ -27,9 +27,11 @@
     - title: Visiting Researcher
       institution: CitAI Research Center
       year: 2025 - now
-      description: Develop 2 image-clustering pipelines to simulate non-IID data for federated learning in computer vision tasks 
-        - Semantic clustering leveraging vision-language models (VLMs), large language models (LLMs), and multimodal LLMs.
-        - Manifold-aware clustering utilizing intrinsic dimension estimation (TwoNN/MLE methods) to optimize image partitioning in high-dimensional embedding spaces.
+      description: 
+        - title: Develop 2 image-clustering pipelines to simulate non-IID data for federated learning in computer vision tasks.
+        contents:
+          - Semantic clustering leveraging vision-language models (VLMs), large language models (LLMs), and multimodal LLMs.
+          - Manifold-aware clustering utilizing intrinsic dimension estimation (TwoNN/MLE methods) to optimize image partitioning in high-dimensional embedding spaces.
       
     - title: Research Assistant
       institution: Dept. of Computer Science, City UoL
