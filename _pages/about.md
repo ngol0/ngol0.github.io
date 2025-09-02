@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher & Programmer | London, UK
+subtitle: Visiting Researcher | Research Engineer | CitAI Research Center | London, UK
 
 profile:
   align: right
