@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-09-02 15:59:00-0400
+date: 2025-08-24 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Completed the Deep Generative Learning course from DeepLearning.AI
+I gave the presentation at ISNN 2025 on August 24th :sparkles: :smile:
