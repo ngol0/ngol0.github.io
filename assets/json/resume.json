@@ -1,19 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Lam Ngo",
+    "label": "Researcher | Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "lamngo.251@gmail.com",
+    "phone": "(+84)35 777 0897",
+    "summary": "A hardworking researcher and programmer who enjoys ",
+    
     "profiles": [
       {
         "network": "Twitter",
