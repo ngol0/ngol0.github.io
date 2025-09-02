@@ -7,6 +7,8 @@
       value: 25th January 1997
     - name: Languages
       value: English, Vietnamese
+    - name: Programming Languages
+      value: Python, C++, C#
 
 - title: Education
   type: time_table
@@ -15,8 +17,8 @@
       institution: City St Georges, University of London
       year: 2023 - 2024
       description: 
-        - Global STEM Leadership Master’s Scholarship, 75% tuition award given to 10 top applicants
-        - Thesis in Feature Extraction for Deep Dynamic Network for Reinforcement Learning
+        - Global STEM Leadership Master’s Scholarship, 75% tuition award given to 10 top applicants.
+        - Thesis titled *Feature Extraction for Deep Dynamic Network for Reinforcement Learning*.
     - title: BSc in Mathematics
       institution: Sewanee - University of the South
       year: 2016 - 2020
@@ -29,9 +31,9 @@
       year: 2025 - now
       description: 
         - title: Develop 2 image-clustering pipelines to simulate non-IID data for federated learning in computer vision tasks.
-        contents:
-          - Semantic clustering leveraging vision-language models (VLMs), large language models (LLMs), and multimodal LLMs.
-          - Manifold-aware clustering utilizing intrinsic dimension estimation (TwoNN/MLE methods) to optimize image partitioning in high-dimensional embedding spaces.
+            contents:
+              - Semantic clustering leveraging vision-language models (VLMs), large language models (LLMs), and multimodal LLMs.
+              - Manifold-aware clustering utilizing intrinsic dimension estimation (TwoNN/MLE methods) to optimize image partitioning in high-dimensional embedding spaces.
       
     - title: Research Assistant
       institution: Dept. of Computer Science, City UoL
