@@ -27,8 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently an AI/ML research engineer. I am collaborating with PhD student Vasilis Siomos and Dr. Giacomo Tarroni from CitAI Research Center (London) on a project investigating image clustering methods to create non-IID data for federated learning in computer vision tasks, both for natural images and medical iamges. I held a BSc in Math and an MSc in Computer Science (with focus on Games Technology & Graphics). My thesis work, supervised by Dr. Chris Child, was on building environment models for reinforcement learning tasks using dynamic programming and features extractions from neural networks. The paper was published in the [proceedings of ISNN 2025](https://link.springer.com/chapter/10.1007/978-981-95-1233-1_3#citeas) (International Symposium on Neural Networks)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests include: 2D/3D Computer Vision, Generative AI, Reinforcement Learning, and AI for Good. I'm currently looking for PhD opportunities, prefably in the field of 2D/3D Computer Vision, and in Europe - so please feel free to contact me if my profile matches with your lab! 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
