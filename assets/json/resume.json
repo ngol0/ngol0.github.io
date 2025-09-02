@@ -7,18 +7,30 @@
     "phone": "(+84)35 777 0897",
     "summary": "A hardworking researcher and programmer who enjoys ",
   },
-  "work": [
+  "research work": [
     {
       "name": "CitAI Research Center",
       "position": "Visiting Researcher",
-      "startDate": "2025-03-01",
+      "startDate": "2025-03",
       "endDate": "Present",
     },
     {
       "name": "Department of Computer Science, City St Georges UoL",
       "position": "Research Assistant",
-      "startDate": "2025-03-01",
-      "endDate": "Present",
+      "startDate": "2024-10",
+      "endDate": "2025-06",
+    },
+    {
+      "name": "Center for Bioinformatics, American Museum of Natural History",
+      "position": "Research Intern",
+      "startDate": "2019-02",
+      "endDate": "2020-05",
+    },
+    {
+      "name": "Dept. of Computer Science & Dept. of Biology, Sewanee: University of the South",
+      "position": "Research Assistant",
+      "startDate": "2016-10",
+      "endDate": "2020-05",
     }
   ],
   "education": [
