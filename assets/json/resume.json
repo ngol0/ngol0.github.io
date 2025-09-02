@@ -6,7 +6,7 @@
     "email": "lamngo.251@gmail.com",
     "phone": "(+84)35 777 0897",
     "summary": "A hardworking researcher and programmer who enjoys ",
-  }
+  },
   "work": [
     {
       "name": "CitAI Research Center",
@@ -23,15 +23,12 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "City St George's, University of London",
+      "location": "London, United Kingdom",
+      "area": "Computer Science (major: Computer Games Technology)",
+      "studyType": "MSc",
+      "startDate": "2023-09-01",
+      "endDate": "2024-09-01",
     }
   ],
   "awards": [
@@ -45,9 +42,9 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "name": "Generative Deep Learning",
+      "date": "2025-09-02",
+      "issuer": "DeepLearning.AI",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
     },
