@@ -17,8 +17,8 @@
       institution: City St Georges, University of London
       year: 2023 - 2024
       description: 
-        - Global STEM Leadership Masters Scholarship, 75% tuition award given to 10 top applicants
-        - Thesis titled Feature Extraction of Deep Dynamic Network for Reinforcement Learning
+        - Global STEM Leadership Masters Scholarship, 75% tuition award given to 10 top applicants.
+        - Thesis titled Feature Extraction of Deep Dynamic Network for Reinforcement Learning.
     - title: BSc in Mathematics
       institution: Sewanee - University of the South
       year: 2016 - 2020
@@ -32,23 +32,23 @@
       description: 
         - title: Developing 2 image-clustering pipelines to simulate non-IID data for federated learning in computer vision tasks
           contents:
-            - Semantic clustering leveraging vision-language models (VLMs), large language models (LLMs), and multimodal LLMs
-            - Manifold-aware clustering utilizing intrinsic dimension estimation (TwoNN/MLE methods) to optimize image partitioning in high-dimensional embedding spaces
+            - Semantic clustering leveraging vision-language models (VLMs), large language models (LLMs), and multimodal LLMs.
+            - Manifold-aware clustering utilizing intrinsic dimension estimation (TwoNN/MLE methods) to optimize image partitioning in high-dimensional embedding spaces.
       
     - title: Research Assistant
       institution: Dept. of Computer Science, City UoL
       year: 2024 - 2025
-      description: Explored environment modelling for reinforcmement learning tasks using feature extraction
+      description: Explored environment modelling for reinforcmement learning tasks using feature extraction and dynamic programming.
 
     - title: Research Intern
       institution: American Museum of Natural History
       year: 2019 - 2020
-      description: Technical assistant for Terrapin Tracker, which was selected as finalist for the Con X Tech Prize 2020
+      description: Technical assistant for project Terrapin GPS Tracker , which was selected as finalist for the Con X Tech Prize 2020.
 
     - title: Undergraduate Research Assistant
       institution: Dept. of CS and Dept. of Biology, Sewanee - University of the South
       year: 2016 - 2020
-      description: Data engineer and analysis for transcriptome projects
+      description: Data engineer and analysis for biological transcriptome projects.
 
 - title: Related Industry Experience
   type: time_table
@@ -56,12 +56,12 @@
     - title: C++ Programmer Mentee
       institution: Ubisoft Leamington
       year: 2023 - 2024
-      description: Built a simple game engine in C++ and built a game using the engine, utilizing several programming design patterns
+      description: Built a simple game engine in C++ and built a game using the engine, utilizing several programming design patterns. Also implemented AI system to predict players movements.
 
     - title: Junior Programmer
       institution: IndiGames Inc
       year: 2022 - 2023
-      description: Delivered 3 mobile games for clients in Japan. Responsible for core gameplay, UI, other systems
+      description: Delivered 3 mobile games for clients in Japan. Responsible for core gameplay, UI, general systems.
 
 - title: Academic Interests
   type: nested_list
