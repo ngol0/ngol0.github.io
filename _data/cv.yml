@@ -14,35 +14,19 @@
     - title: MSc
       institution: City St Georges, University of London
       year: 2024
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
     - title: BSc
       institution: Sewanee: University of the South
       year: 2020
-      description:
-        - Description 1.
-        - Description 2.
-
+      
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
+    - title: Visiting Researcher
+      institution: CitAI Research Center
+      year: 03/2025 - Present
+      
+    - title: Research Assistant
+      institution: 
       year: 1933
       description:
         - Description 1.
