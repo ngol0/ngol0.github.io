@@ -66,7 +66,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Computer Vision
+    - title: Computer Vision and Computer Graphics
       items:
         - 2D / 3D Computer Vision
         - Digital Twin / 3D Visualization
