@@ -11,10 +11,10 @@
 - title: Education
   type: time_table
   contents:
-    - title: MSc
+    - title: MSc in Computer Science (Major: Computer Games Technology)
       institution: City St Georges, University of London
       year: 2024
-    - title: BSc
+    - title: BSc in Mathematics
       institution: Sewanee: University of the South
       year: 2020
       
@@ -23,18 +23,15 @@
   contents:
     - title: Visiting Researcher
       institution: CitAI Research Center
-      year: 03/2025 - Present
+      year: 2025-Present
       
     - title: Research Assistant
       institution: 
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+      year: 2024-2025
 
-    - title: Director
+    - title: Research Intern
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+      year: 2019-2020
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
