@@ -28,5 +28,5 @@ I am currently a Visiting Researcher at [CitAI Research Center](https://cit-ai.n
 
 I held a BSc in Math and an MSc in Computer Science. My thesis work, supervised by [Dr. Chris Child](https://www.citystgeorges.ac.uk/about/people/academics/chris-child), was on building environment models for reinforcement learning tasks using dynamic programming and features extractions from neural networks. The paper was published in the [proceedings of ISNN 2025](https://link.springer.com/chapter/10.1007/978-981-95-1233-1_3) (International Symposium on Neural Networks)
 
-My research interests include: **2D/3D Computer Vision**, **Generative AI**, **Reinforcement Learning**, and **AI for Medical Purposes**. I'm currently looking for PhD opportunities, prefably in the field of 2D/3D Computer Vision, and in Europe - so please feel free to contact me if my profile matches with your lab! 
+My research interests include: **2D/3D Computer Vision**, **Generative AI**, **Digital Twin**, **Reinforcement Learning**, and **AI for Medical Purposes**. I'm currently looking for PhD opportunities, prefably in the field of 2D/3D Computer Vision, and in Europe - so please feel free to contact me if my profile matches with your lab! 
 
