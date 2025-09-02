@@ -398,16 +398,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{id: "news-paper-was-accepted-to-isnn-2025",
           title: 'Paper was accepted to ISNN 2025!',
           description: "",
           section: "News",},{id: "news-i-gave-the-presentation-at-isnn-2025-on-august-24th-sparkles-smile",
           title: 'I gave the presentation at ISNN 2025 on August 24th :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-completed-the-deep-generative-learning-course-from-deeplearning-ai",
+          title: 'Completed the Deep Generative Learning course from DeepLearning.AI',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
