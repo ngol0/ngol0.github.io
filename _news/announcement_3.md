@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I completed the course *Deep Generative Learning* from DeepLearning.AI
+I completed the course *Deep Generative Learning* from DeepLearning.AI 📖
