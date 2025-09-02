@@ -24,9 +24,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently an AI/ML research engineer. I am collaborating with PhD student Vasilis Siomos and Dr. Giacomo Tarroni from CitAI Research Center (London) on a project investigating image clustering methods to create non-IID data for federated learning in computer vision tasks, both for natural images and medical images. 
+I am currently an AI/ML research engineer. I am collaborating with PhD student Vasilis Siomos and [Dr. Giacomo Tarroni](https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni) from [CitAI Research Center](https://cit-ai.net/) (London) on a project investigating image clustering methods to create non-IID data for federated learning in computer vision tasks, both for natural images and medical images. 
 
-I held a BSc in Math and an MSc in Computer Science (with focus on Games Technology & Graphics). My thesis work, supervised by Dr. Chris Child, was on building environment models for reinforcement learning tasks using dynamic programming and features extractions from neural networks. The paper was published in the [proceedings of ISNN 2025](https://link.springer.com/chapter/10.1007/978-981-95-1233-1_3) (International Symposium on Neural Networks)
+I held a BSc in Math and an MSc in Computer Science. My thesis work, supervised by [Dr. Chris Child](https://www.citystgeorges.ac.uk/about/people/academics/chris-child), was on building environment models for reinforcement learning tasks using dynamic programming and features extractions from neural networks. The paper was published in the [proceedings of ISNN 2025](https://link.springer.com/chapter/10.1007/978-981-95-1233-1_3) (International Symposium on Neural Networks)
 
 My research interests include: **2D/3D Computer Vision**, **Generative AI**, **Reinforcement Learning**, and **AI for Medical Purposes**. I'm currently looking for PhD opportunities, prefably in the field of 2D/3D Computer Vision, and in Europe - so please feel free to contact me if my profile matches with your lab! 
 
