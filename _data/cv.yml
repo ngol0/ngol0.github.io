@@ -29,11 +29,7 @@
     - title: Visiting Researcher
       institution: CitAI Research Center
       year: 2025 - now
-      description: 
-        - title: Investigating 2 image-clustering methods to simulate non-IID data for federated learning in computer vision tasks.
-          contents:
-            - Semantic clustering leveraging vision-language models (VLMs), large language models (LLMs), and multimodal LLMs.
-            - Manifold-aware clustering utilizing intrinsic dimension estimation (TwoNN/MLE methods) to optimize image partitioning in high-dimensional embedding spaces.
+      description: Investigating 2 image-clustering methods to simulate non-IID data for federated learning in computer vision tasks, both for natural and medical images.
       
     - title: Research Assistant
       institution: Dept. of Computer Science, City UoL
@@ -43,12 +39,12 @@
     - title: Research Intern
       institution: American Museum of Natural History
       year: 2019 - 2020
-      description: Technical assistant for project Terrapin GPS Tracker , which was selected as finalist for the Con X Tech Prize 2020.
+      description: Technical assistant for project Terrapin Tracker, an animal tracking system, which was selected as finalist for the Con X Tech Prize 2020.
 
     - title: Undergraduate Research Assistant
       institution: Dept. of CS and Dept. of Biology, Sewanee - University of the South
       year: 2016 - 2020
-      description: Data engineer and analysis for biological transcriptome projects.
+      description: Data engineer and analysis for biological transcriptome projects. Also developed drone-based wildlife monitoring system.
 
 - title: Related Industry Experience
   type: time_table
@@ -61,7 +57,7 @@
     - title: Junior Programmer
       institution: IndiGames Inc
       year: 2022 - 2023
-      description: Delivered 3 mobile games for clients in Japan. Responsible for core gameplay, UI, general systems.
+      description: Collaborated with Japan team to deliver 3 commercial products for clients in Japan. Responsible for core gameplay, UI, general systems and multiplayer features.
 
 - title: Academic Interests
   type: nested_list
