@@ -65,8 +65,8 @@
     - title: Computer Vision and Computer Graphics
       items:
         - 2D / 3D Computer Vision
-        - Digital Twin / 3D Visualization
+        - Digital Twin / 3D Visualization & Simulation
         - Medical Imaging
-    - title: Reinforcement Learning
+    - title: Generative Modelling
       items:
-        - Simulation, multi-agents systems
+        - VLM, LLM, MLLM
