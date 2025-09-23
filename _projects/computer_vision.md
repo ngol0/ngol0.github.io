@@ -2,7 +2,7 @@
 layout: page
 title: Computer Vision projects
 description: self learning projects
-img: assets/img/4.jpg
+img: assets/img/doggo.png
 importance: 1
 category: academic
 related_publications: true
@@ -28,14 +28,11 @@ These projects explore various computer vision techniques and generative deep le
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/original.png" title="doggo" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/doggo.png" title="result" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
 ### 2. VAEs:
@@ -45,11 +42,8 @@ These projects explore various computer vision techniques and generative deep le
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/vae.png" title="vae results" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
 ### 3. GANs:
@@ -64,6 +58,12 @@ These projects explore various computer vision techniques and generative deep le
   
 *  *Results:* The boxes my model generated match 99.58% of the ground truth boxes with a relative tolerance of 0.3.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/exe2.jpg" title="object detection" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ### 5. Image Segmentation 1:
 *  *Main Objective:* Build a model that predicts the segmentation masks (pixel-wise label map) of handwritten digits. This model will be trained on the M2NIST dataset, a multi digit MNIST.
   
@@ -73,11 +73,8 @@ These projects explore various computer vision techniques and generative deep le
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/exe3.png" title="imgseg1" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
 ### 6. Image Segmentation 2: 
@@ -89,7 +86,7 @@ I did this project as an extension to the previous one with the purpose of learn
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/more.png" title="imgseg2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -102,20 +99,9 @@ I did this project as an extension to the previous one with the purpose of learn
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/cert.png" title="cert1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/cert2.png" title="cert2" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 </div>
