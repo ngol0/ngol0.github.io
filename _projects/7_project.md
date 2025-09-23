@@ -1,25 +1,22 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: Computer Vision Projects
+description: self-directed learning projects
 img: assets/img/4.jpg
 importance: 1
 category: academic
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+These are the projects from my self-directed learning. Most of them are from the two DeepLearning.AI courses by Andrew Ng: [Advanced Computer Vision](https://www.coursera.org/learn/advanced-computer-vision-with-tensorflow/) and [Deep Generative Modelling](https://www.coursera.org/learn/generative-deep-learning-with-tensorflow/). Each course consists of 4 modules, with one project per module. The project details for relevant topics could be found below. The topics and models covered in each module include:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+* **Object Detection:** model architecture of R-CNN, Fast R-CNN, Faster R-CNN, finetune RetinaNet.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+* **Image Segmentation:** model architecture of U-Net, segmentation implemention with FCN
+  
+* **Visualization and Interpretability:** visualize model predictions and understand CNNs
+
+* **Deep Generative Modelling:** style transfer, VAEs and GANs
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
