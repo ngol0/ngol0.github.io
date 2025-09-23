@@ -1,6 +1,6 @@
 ---
 layout: page
-title: [Learning] Computer Vision projects
+title: Computer Vision learning projects
 description: self learning projects
 img: assets/img/doggo.png
 importance: 1
