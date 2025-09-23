@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of cool projects.
 nav: true
 nav_order: 3
-display_categories: [academic, coding]
+display_categories: [machine learning and AI, coding and math]
 horizontal: false
 ---
 
