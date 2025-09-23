@@ -89,9 +89,6 @@ I did this project as an extension to the previous one with the purpose of learn
         {% include figure.liquid loading="eager" path="assets/img/more.png" title="imgseg2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
 ## Certificates
 *  [Generative Deep Learning](https://www.coursera.org/account/accomplishments/verify/EOEXLWZN36BW)
