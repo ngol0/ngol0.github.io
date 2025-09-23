@@ -440,11 +440,6 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-computer-vision-projects",
-          title: 'Computer Vision projects',
-          description: "self learning projects",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
@@ -455,6 +450,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-computer-vision-projects",
+          title: 'Computer Vision projects',
+          description: "self learning projects",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/computer_vision/";
             },},{
         id: 'social-email',
         title: 'email',
