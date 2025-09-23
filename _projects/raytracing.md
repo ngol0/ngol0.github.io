@@ -4,7 +4,7 @@ title: Raytracing
 description: 3D, software and math
 img: assets/img/44.png
 importance: 1
-category: coding
+category: coding and math
 related_publications: true
 ---
 
