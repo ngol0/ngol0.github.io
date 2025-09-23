@@ -441,8 +441,8 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-computer-vision-projects",
-          title: 'Computer Vision Projects',
-          description: "self-directed learning projects",
+          title: 'Computer Vision projects',
+          description: "self learning projects",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
