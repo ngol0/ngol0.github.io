@@ -450,9 +450,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-computer-vision-learning-projects",
+          title: 'Computer Vision learning projects',
+          description: "self learning projects",
           section: "Projects",handler: () => {
               window.location.href = "/projects/computer_vision/";
             },},{
