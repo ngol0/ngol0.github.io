@@ -452,7 +452,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-computer-vision-learning-projects",
           title: 'Computer Vision learning projects',
-          description: "self learning projects",
+          description: "featuring VAEs, GANs, image segmentation with U-Net, object detection, etc.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/computer_vision/";
             },},{id: "projects-raytracing",
