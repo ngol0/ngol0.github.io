@@ -26,3 +26,6 @@ This project demonstrates the power and beauty of ray tracing to create realisti
         {% include figure.liquid loading="eager" path="assets/img/33.png" title="cert2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+## Attribute
+The application uses the template [Walnut](https://github.com/StudioCherno/Walnut) as a starting point. The RayTracing techniques and code references are from [Cherno's RayTracing tutorial](https://www.youtube.com/watch?v=gfW1Fhd9u9Q) and [RayTracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html).
