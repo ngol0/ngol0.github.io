@@ -4,7 +4,7 @@ title: Computer Vision learning projects
 description: self learning projects
 img: assets/img/doggo.png
 importance: 1
-category: machine learning
+category: machine learning and AI
 related_publications: true
 ---
 
