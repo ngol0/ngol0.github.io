@@ -29,9 +29,9 @@
     - title: Visiting Researcher
       institution: CitAI Research Center
       year: 2025 - now
-      description: Investigating image-clustering methods to tackle non-IID data problem in federated learning for computer vision tasks, both for natural and medical images.
+      description: Investigating image-partitioning methods to tackle non-IID data problem in federated learning for computer vision tasks, both for natural and medical images.
       
-    - title: Research Assistant
+    - title: AI/ML Research Engineer
       institution: Dept. of Computer Science, City UoL
       year: 2024 - 2025
       description: Explored environment modelling for reinforcmement learning tasks using feature extraction and dynamic programming.
