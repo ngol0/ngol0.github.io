@@ -26,12 +26,12 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Visiting Researcher
+    - title: AI/ML Research Engineer
       institution: CitAI Research Center
       year: 2025 - now
       description: Investigating image-partitioning methods to tackle non-IID data problem in federated learning for computer vision tasks, both for natural and medical images.
       
-    - title: AI/ML Research Engineer
+    - title: AI/ML Research Assistant
       institution: Dept. of Computer Science, City UoL
       year: 2024 - 2025
       description: Explored environment modelling for reinforcmement learning tasks using feature extraction and dynamic programming.
@@ -62,11 +62,10 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Computer Vision and Computer Graphics
+    - title: Computer Vision & Graphics
       items:
-        - 2D / 3D Computer Vision
-        - Digital Twin / 3D Visualization & Simulation
-        - Medical Imaging
-    - title: Generative Modelling
+        - 3D Recontruction & Digital Twin
+        - Simulation
+    - title: Agentic AI and Workflows
       items:
-        - VLM, LLM, MLLM
+        - Multi-agents agentic workflow
