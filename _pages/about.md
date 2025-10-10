@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Visiting Researcher | Research Engineer | CitAI Research Center | London, UK
+subtitle: Research Engineer @ CitAI Research Center, London, UK
 
 profile:
   align: right
