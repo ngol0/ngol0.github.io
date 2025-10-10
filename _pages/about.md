@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Engineer @ CitAI Research Center, London, UK
+subtitle: Research Engineer @ CitAI Research Center | London, UK
 
 profile:
   align: right
