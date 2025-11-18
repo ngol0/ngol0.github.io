@@ -29,7 +29,7 @@
     - title: AI/ML Research Engineer
       institution: CitAI Research Center
       year: 2025 - now
-      description: Investigating image-partitioning methods to tackle non-IID data problem in federated learning for computer vision tasks, both for natural and medical images.
+      description: Investigating dataset partitioning methods to tackle the scarcity of real-world data in federated learning for computer vision tasks, both for natural and medical images.
       
     - title: AI/ML Research Technician
       institution: Dept. of Computer Science, City UoL
@@ -62,10 +62,11 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Computer Vision & Graphics
+    - title: Computer Vision & 3D Graphics
       items:
         - 3D Recontruction & Digital Twin
         - Simulation
+        - Human-Computer Interaction & Human-AI Interaction
     - title: Agentic AI and Workflows
       items:
         - Multi-agents agentic workflow
