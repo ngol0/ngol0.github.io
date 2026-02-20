@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Engineer @ CitAI Research Center | London, UK
+subtitle: Research Intern @ Aalto University | Helsinki, Finland
 
 profile:
   align: right
