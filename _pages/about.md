@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Intern @ HINT Lab | Helsinki, Finland
+subtitle: Research Intern @ HINT Lab | Aalto University | Helsinki, Finland
 
 profile:
   align: right
