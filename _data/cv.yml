@@ -26,12 +26,17 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: AI/ML Research Engineer
+    - title: Research Intern
+      institution: Aalto University & ELLIS Institute Finland
+      year: 2025 - now
+      description: Develop a conditional diffusion model for 3D reconstruction of cardiac structures via geometric distribution learning, enabling anatomically accurate surface point cloud prediction from unseen volumetric data.
+
+    - title: Research Engineer
       institution: CitAI Research Center
       year: 2025 - now
       description: Investigating dataset partitioning methods to tackle the scarcity of real-world data in federated learning for computer vision tasks, both for natural and medical images.
       
-    - title: AI/ML Research Technician
+    - title: Research Technician
       institution: Dept. of Computer Science, City UoL
       year: 2024 - 2025
       description: Explored environment modelling for reinforcmement learning tasks using feature extraction and dynamic programming.
@@ -40,11 +45,6 @@
       institution: American Museum of Natural History
       year: 2019 - 2020
       description: Technical assistant for project Terrapin Tracker, an animal tracking system, which was selected as finalist for the Con X Tech Prize 2020.
-
-    - title: Undergraduate Research Assistant
-      institution: Dept. of CS and Dept. of Biology, Sewanee - University of the South
-      year: 2016 - 2020
-      description: Data engineer and analysis for biological transcriptome projects. Also developed drone-based wildlife monitoring system.
 
 - title: Related Industry Experience
   type: time_table
