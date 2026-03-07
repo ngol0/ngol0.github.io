@@ -59,8 +59,7 @@ The pipeline:
 
 The partitioning pipelines are complete. Evaluation of the resulting partitions — comparing heterogeneity across methods using label and feature distribution metrics — is currently ongoing. 
 
-Early results show that VLM-guided partitioning creates non-IID
-splits with 2× higher heterogeneity than Dirichlet sampling while preserving semantic coherence.
+Early results show that VLM-guided partitioning creates non-IID splits with 2× higher heterogeneity than Dirichlet sampling while preserving semantic coherence.
 
 ## Links
 
