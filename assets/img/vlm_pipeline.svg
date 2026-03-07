@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Arial, sans-serif">
+
+  <!-- Background -->
+  <rect width="900" height="420" fill="#f8f9fa" rx="12"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#2d3436">VLM-Based Partitioning Pipeline</text>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#636e72"/>
+    </marker>
+  </defs>
+
+  <!-- ── Step boxes ── -->
+
+  <!-- Step 1 -->
+  <rect x="30" y="70" width="150" height="110" rx="10" fill="#dfe6e9" stroke="#b2bec3" stroke-width="1.5"/>
+  <text x="105" y="96" text-anchor="middle" font-size="11" font-weight="bold" fill="#2d3436">Step 1</text>
+  <text x="105" y="112" text-anchor="middle" font-size="10" fill="#636e72">VLM Annotation</text>
+  <line x1="55" y1="120" x2="155" y2="120" stroke="#b2bec3" stroke-width="1"/>
+  <text x="105" y="138" text-anchor="middle" font-size="9.5" fill="#2d3436">Image → free-text</text>
+  <text x="105" y="153" text-anchor="middle" font-size="9.5" fill="#2d3436">description per</text>
+  <text x="105" y="168" text-anchor="middle" font-size="9.5" fill="#2d3436">chosen criterion</text>
+
+  <!-- Arrow 1→2a -->
+  <line x1="180" y1="125" x2="218" y2="125" stroke="#636e72" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 2a -->
+  <rect x="220" y="70" width="150" height="110" rx="10" fill="#dfe6e9" stroke="#b2bec3" stroke-width="1.5"/>
+  <text x="295" y="96" text-anchor="middle" font-size="11" font-weight="bold" fill="#2d3436">Step 2a</text>
+  <text x="295" y="112" text-anchor="middle" font-size="10" fill="#636e72">LLM Label Proposal</text>
+  <line x1="245" y1="120" x2="345" y2="120" stroke="#b2bec3" stroke-width="1"/>
+  <text x="295" y="138" text-anchor="middle" font-size="9.5" fill="#2d3436">Reads all annotations,</text>
+  <text x="295" y="153" text-anchor="middle" font-size="9.5" fill="#2d3436">proposes a compact</text>
+  <text x="295" y="168" text-anchor="middle" font-size="9.5" fill="#2d3436">set of category labels</text>
+
+  <!-- Arrow 2a→2b -->
+  <line x1="370" y1="125" x2="408" y2="125" stroke="#636e72" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 2b -->
+  <rect x="410" y="70" width="150" height="110" rx="10" fill="#dfe6e9" stroke="#b2bec3" stroke-width="1.5"/>
+  <text x="485" y="96" text-anchor="middle" font-size="11" font-weight="bold" fill="#2d3436">Step 2b</text>
+  <text x="485" y="112" text-anchor="middle" font-size="10" fill="#636e72">LLM Assignment</text>
+  <line x1="435" y1="120" x2="535" y2="120" stroke="#b2bec3" stroke-width="1"/>
+  <text x="485" y="138" text-anchor="middle" font-size="9.5" fill="#2d3436">Assigns each image</text>
+  <text x="485" y="153" text-anchor="middle" font-size="9.5" fill="#2d3436">to one of the</text>
+  <text x="485" y="168" text-anchor="middle" font-size="9.5" fill="#2d3436">proposed labels</text>
+
+  <!-- Arrow 2b→3 -->
+  <line x1="560" y1="125" x2="598" y2="125" stroke="#636e72" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <rect x="600" y="70" width="150" height="110" rx="10" fill="#dfe6e9" stroke="#b2bec3" stroke-width="1.5"/>
+  <text x="675" y="96" text-anchor="middle" font-size="11" font-weight="bold" fill="#2d3436">Step 3</text>
+  <text x="675" y="112" text-anchor="middle" font-size="10" fill="#636e72">Partition Creation</text>
+  <line x1="625" y1="120" x2="725" y2="120" stroke="#b2bec3" stroke-width="1"/>
+  <text x="675" y="138" text-anchor="middle" font-size="9.5" fill="#2d3436">Groups images by</text>
+  <text x="675" y="153" text-anchor="middle" font-size="9.5" fill="#2d3436">category → assigns</text>
+  <text x="675" y="168" text-anchor="middle" font-size="9.5" fill="#2d3436">each group to client</text>
+
+  <!-- Arrow 3→output -->
+  <line x1="750" y1="125" x2="788" y2="125" stroke="#636e72" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Output box -->
+  <rect x="790" y="88" width="90" height="74" rx="10" fill="#55efc4" stroke="#00b894" stroke-width="1.5"/>
+  <text x="835" y="116" text-anchor="middle" font-size="10" font-weight="bold" fill="#2d3436">FL Client</text>
+  <text x="835" y="131" text-anchor="middle" font-size="10" font-weight="bold" fill="#2d3436">Partitions</text>
+  <text x="835" y="150" text-anchor="middle" font-size="9" fill="#2d3436">non-IID splits</text>
+
+  <!-- ── Criterion row ── -->
+  <text x="450" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d3436">Visual Criteria (per dataset)</text>
+
+  <!-- Tiny ImageNet -->
+  <rect x="30" y="248" width="185" height="75" rx="8" fill="#fff" stroke="#b2bec3" stroke-width="1.2"/>
+  <text x="122" y="268" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#0984e3">Tiny ImageNet</text>
+  <text x="122" y="285" text-anchor="middle" font-size="9.5" fill="#636e72">main object · size · time</text>
+  <text x="122" y="300" text-anchor="middle" font-size="9.5" fill="#636e72">color · location</text>
+
+  <!-- Food-101 -->
+  <rect x="230" y="248" width="185" height="75" rx="8" fill="#fff" stroke="#b2bec3" stroke-width="1.2"/>
+  <text x="322" y="268" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#0984e3">Food-101</text>
+  <text x="322" y="285" text-anchor="middle" font-size="9.5" fill="#636e72">main dish · size · color</text>
+  <text x="322" y="300" text-anchor="middle" font-size="9.5" fill="#636e72">camera angle · lighting</text>
+
+  <!-- ADE20K -->
+  <rect x="430" y="248" width="185" height="75" rx="8" fill="#fff" stroke="#b2bec3" stroke-width="1.2"/>
+  <text x="522" y="268" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#0984e3">ADE20K</text>
+  <text x="522" y="285" text-anchor="middle" font-size="9.5" fill="#636e72">main object · scene · color</text>
+  <text x="522" y="300" text-anchor="middle" font-size="9.5" fill="#636e72">lighting · size · camera</text>
+
+  <!-- PascalVOC -->
+  <rect x="630" y="248" width="240" height="75" rx="8" fill="#fff" stroke="#b2bec3" stroke-width="1.2"/>
+  <text x="750" y="268" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#0984e3">PascalVOC</text>
+  <text x="750" y="285" text-anchor="middle" font-size="9.5" fill="#636e72">main object · location · color</text>
+  <text x="750" y="300" text-anchor="middle" font-size="9.5" fill="#636e72">lighting · size · camera</text>
+
+  <!-- ── Models row ── -->
+  <text x="450" y="358" text-anchor="middle" font-size="12" font-weight="bold" fill="#2d3436">Models</text>
+
+  <rect x="80" y="370" width="180" height="36" rx="8" fill="#fdcb6e" stroke="#e17055" stroke-width="1.2"/>
+  <text x="170" y="393" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#2d3436">VLM — Qwen3 / InternVL3</text>
+
+  <rect x="360" y="370" width="180" height="36" rx="8" fill="#a29bfe" stroke="#6c5ce7" stroke-width="1.2"/>
+  <text x="450" y="393" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#2d3436">LLM — LLaMA 3.3 70B</text>
+
+  <rect x="640" y="370" width="180" height="36" rx="8" fill="#fd79a8" stroke="#e84393" stroke-width="1.2"/>
+  <text x="730" y="393" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#2d3436">Output — non-IID partitions</text>
+
+</svg>
