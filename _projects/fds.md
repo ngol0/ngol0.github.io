@@ -49,17 +49,19 @@ The pipeline:
     The embedding pipeline: foundation model embeddings are pooled, optionally reduced with UMAP, clustered into semantic groups, and assigned to FL clients. The heterogeneity parameter β controls cluster granularity.
 </div>
 
-## Contributors
-
-- **Vasilis Siomos**, PhD — City St George's University of London: project lead, contributing to embedding-based pipeline implementations and federated learning training steps
-- **Lam Ngo**, MSc — City St George's University of London: research engineer, contributing to VLM-guided pipeline implementations and research
-- **Dr. Giacomo Tarroni** — City St George's University of London: supervisor
 
 ## Evaluation - Early Result & Ongoing Status
 
 The partitioning pipelines are complete. Evaluation of the resulting partitions — comparing heterogeneity across methods using label and feature distribution metrics — is currently ongoing. 
 
 Early results show that VLM-guided partitioning creates non-IID splits with 2× higher heterogeneity than Dirichlet sampling while preserving semantic coherence.
+
+
+## Contributors
+
+- **Vasilis Siomos**, PhD — City St George's University of London: project lead, contributing to embedding-based pipeline implementations and federated learning training steps
+- **Lam Ngo**, MSc — City St George's University of London: research engineer, contributing to VLM-guided pipeline implementations and research
+- **Dr. Giacomo Tarroni** — City St George's University of London: supervisor
 
 ## Links
 
