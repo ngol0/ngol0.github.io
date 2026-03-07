@@ -49,6 +49,10 @@ The pipeline:
     The embedding pipeline: foundation model embeddings are pooled, optionally reduced with UMAP, clustered into semantic groups, and assigned to FL clients. The heterogeneity parameter β controls cluster granularity.
 </div>
 
+## Status
+
+The partitioning pipelines are complete. Evaluation of the resulting partitions — comparing heterogeneity across methods using label and feature distribution metrics — is currently ongoing.
+
 ## Links
 
 - [GitHub (public)](https://github.com/ngol0/FDS-public)
