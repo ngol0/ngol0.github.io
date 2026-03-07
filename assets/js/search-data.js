@@ -458,6 +458,11 @@ ninja.data = [{
           description: "featuring VAEs, GANs, image segmentation with U-Net, object detection, etc.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/computer_vision/";
+            },},{id: "projects-federated-dataset-simulation-fds",
+          title: 'Federated Dataset Simulation (FDS)',
+          description: "A framework for creating and evaluating heterogeneous data partitions for federated learning research.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fds/";
             },},{id: "projects-raytracing",
           title: 'Raytracing',
           description: "3D, software and math",
