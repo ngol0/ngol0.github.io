@@ -15,6 +15,14 @@ Federated learning (FL) assumes that data is distributed across multiple clients
 - **Embedding-based**: semantic clustering using foundation model embeddings (DINOv2, CLIP, SigLIP)
 
 
+## Motivation
+
+Federated learning is well-established, and many tools provide federated splits, most notably Dirichlet-based label splitting. 
+
+However, these approaches primarily simulate heterogeneity through **label distribution skew**: clients differ in how many samples of each class they hold. This is useful but arguably artificial because real-world clients don't just have class imbalances, they hold data that is *visually and semantically* distinct. 
+
+FDS addresses this by partitioning data based on **semantic content** — using foundation model embeddings or VLM-guided annotation, and providing an evaluation framework to measure whether the resulting heterogeneity is meaningfully different from the Dirichlet baseline across both label and feature distributions.
+
 ## Partitioning Strategies
 
 ### VLM-Based Partitioning
