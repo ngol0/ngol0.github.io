@@ -18,6 +18,8 @@ Federated learning (FL) assumes that data is distributed across multiple clients
 ### VLM-Based Partitioning
 A multi-step LLM + VLM pipeline that annotates images along a chosen visual criterion (e.g. main object, dominant color, location, time of day), then groups images by the resulting categories to form client partitions. Supported datasets include Tiny ImageNet, Food-101, ADE20K, and PascalVOC.
 
+*Pipeline based on [ICTC](https://github.com/sehyunkwon/ICTC) by Kwon et al.*
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/vlm_pipeline.svg" title="VLM partitioning pipeline" class="img-fluid rounded z-depth-1" %}
