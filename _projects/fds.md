@@ -38,7 +38,14 @@ The pipeline:
 4. Cluster with HDBSCAN, k-means, k-NN graph, or spectral clustering
 5. Assign clusters to clients
 
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/embedding_pipeline.svg" title="Embedding-based partitioning pipeline" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The embedding pipeline: foundation model embeddings are pooled, optionally reduced with UMAP, clustered into semantic groups, and assigned to FL clients. The heterogeneity parameter β controls cluster granularity.
+</div>
 
 ## Links
 
