@@ -10,7 +10,9 @@ related_publications: false
 
 Federated learning (FL) assumes that data is distributed across multiple clients — but in practice, each client's data reflects its own local context, making it non-IID (non-independent and identically distributed). Designing FL algorithms that handle this heterogeneity requires realistic, controlled data partitions to experiment with.
 
-**FDS** is a framework for creating such partitions and measuring their heterogeneity. It supports multiple partitioning strategies.
+**FDS** is a framework for creating such partitions and measuring their heterogeneity. It supports multiple partitioning strategies:
+- **VLM-based**: criterion-driven partitioning using vision-language models
+- **Embedding-based**: semantic clustering using foundation model embeddings (DINOv2, CLIP, SigLIP)
 
 
 ## Partitioning Strategies
