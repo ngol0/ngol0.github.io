@@ -45,7 +45,7 @@ Uses foundation model embeddings (DINOv2, CLIP, SigLIP) to group semantically si
 
 The pipeline:
 1. Extract image embeddings from a pretrained foundation model
-2. Pool tokens (CLS, mean, GeM, spectral sharpening)
+2. Pool tokens (CLS, mean, max, GeM, last-K layer, spectral sharpening)
 3. Optionally reduce dimensionality with UMAP
 4. Cluster with HDBSCAN, k-means, k-NN graph, or spectral clustering
 5. Assign clusters to clients
@@ -60,19 +60,37 @@ The pipeline:
 </div>
 
 
-## Evaluation - Early Result & Ongoing Status
+## Evaluation
 
-The partitioning pipelines are complete. Evaluation of the resulting partitions — comparing heterogeneity across methods using label and feature distribution metrics — is currently ongoing. 
+The evaluation module provides 17 heterogeneity metrics organised into three tiers:
+
+**Label distribution** — Jensen-Shannon Divergence, Total Variation, and per-client JSD against the global distribution. These operate on class label counts alone and serve as the standard FL benchmark metrics.
+
+**Feature distribution** — FID, MMD, Sliced Wasserstein, Energy Distance, Kolmogorov-Smirnov test, Vendi score, k-NN separability, centroid distance, feature variance, and intrinsic dimensionality. These extract visual embeddings via the same foundation model backends used in partitioning and measure distributional distance in feature space. GPU-accelerated via FAISS.
+
+**Gradient diversity** — Cosine similarity, gradient variance, conflict score, and spectral diversity computed from client gradient tensors during FL training rounds. These capture whether data heterogeneity actually affects gradient alignment during training.
+
+Embeddings are shared with the partitioning pipeline via a persistent disk cache, so features computed during split generation are reused at evaluation time at no extra cost.
 
 Early results show that VLM-guided partitioning creates non-IID splits with 2× higher heterogeneity than Dirichlet sampling while preserving semantic coherence.
+
+## Implementation Status
+
+All five core modules are complete and production-ready:
+
+| Module | Description | Metrics |
+|---|---|---|
+| `data_loading` | Registry-based dataset loaders; federated + centralised modes | 5 datasets, 3 task types |
+| `partitioning` | Four splitting strategies from IID to VLM-guided | Random, Dirichlet, Embedding, Multivariate |
+| `embedding` | Foundation model feature extraction with persistent caching | 10 backbones (DINOv2, CLIP, SigLIP, MAE, InceptionV3 + untrained baselines) |
+| `evaluation` | Heterogeneity metrics across label, feature, and gradient spaces | 17 metrics |
+| `fl_training` | NVFlare FedAvg training with Hydra configuration | Classification, Segmentation, Detection |
+
+The codebase has 540+ tests across 17 test files covering all modules.
 
 
 ## Contributors
 
-- **Vasilis Siomos**, PhD — City St George's University of London: project lead, contributing to embedding-based pipeline implementations and federated learning training steps
+- **Vasilis Siomos**, PhD — City St George's University of London: project lead, contributing to embedding-based pipeline implementations, evaluation and federated learning training steps
 - **Lam Ngo**, MSc — City St George's University of London: research engineer, contributing to VLM-guided pipeline implementations and research
 - **Dr. Giacomo Tarroni** — City St George's University of London: supervisor
-
-## Links
-
-- [GitHub (public)](https://github.com/ngol0/FDS-public)
