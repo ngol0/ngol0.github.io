@@ -76,17 +76,7 @@ Early results show that VLM-guided partitioning creates non-IID splits with 2× 
 
 ## Implementation Status
 
-All five core modules are complete and production-ready:
-
-| Module | Description | Metrics |
-|---|---|---|
-| `data_loading` | Registry-based dataset loaders; federated + centralised modes | 5 datasets, 3 task types |
-| `partitioning` | Four splitting strategies from IID to VLM-guided | Random, Dirichlet, Embedding, Multivariate |
-| `embedding` | Foundation model feature extraction with persistent caching | 10 backbones (DINOv2, CLIP, SigLIP, MAE, InceptionV3 + untrained baselines) |
-| `evaluation` | Heterogeneity metrics across label, feature, and gradient spaces | 17 metrics |
-| `fl_training` | NVFlare FedAvg training with Hydra configuration | Classification, Segmentation, Detection |
-
-The codebase has 540+ tests across 17 test files covering all modules.
+The core data infrastructure is complete: partitioning strategies, embedding extraction, and the heterogeneity metric library are all implemented and tested (540+ tests across 17 test files). Substantial work is still ongoing — FL training experiments, systematic metric gathering across partition configurations, ablation studies, theoretical grounding, and manuscript writing are all in progress.
 
 
 ## Contributors
