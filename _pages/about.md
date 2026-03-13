@@ -26,6 +26,6 @@ latest_posts:
 
 I am currently a research intern working on 3D surface reconstruction under the supervision of [Dr. Jiancheng (JC) Yang](https://jiancheng-yang.com/) at Aalto University. My research interests lie in **3D Computer Vision** and **Spatial Intelligence**, with applications in medical image processing and human-AI interaction.
 
-Previously, I was mentored by [Dr. Giacomo Tarroni](https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni) at CitAI Research Centre, where I worked on VLM-guided methods for dataset partitioning in federated computer vision pipelines.
+Previously, I was supervised by [Dr. Giacomo Tarroni](https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni) at CitAI Research Centre, where I worked on VLM-guided methods for dataset partitioning in federated computer vision pipelines.
 
-I hold a BSc in Math and an MSc in Computer Science. My MSc thesis work, supervised by [Dr. Chris Child](https://www.citystgeorges.ac.uk/about/people/academics/chris-child), focused on building environment models for reinforcement learning tasks. 
+I hold a BSc in Mathematics and an MSc in Computer Science. My MSc thesis work, supervised by [Dr. Chris Child](https://www.citystgeorges.ac.uk/about/people/academics/chris-child), focused on building environment models for reinforcement learning tasks. 
