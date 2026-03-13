@@ -24,9 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently collaborating with [Dr. Jiancheng (JC) Yang](https://jiancheng-yang.com/) at Aalto University. I am working on developing methods for 3D surface reconstruction of cardiac structures via diffusion posterior sampling & geometric distribution learning. In addition, I have been collaborating with [Dr. Giacomo Tarroni](https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni) at CitAI Research Center on developing VLM-guided dataset partitioning methods to address the scarcity of real-world federated datasets in computer vision.
+I am currently a research intern working on 3D surface reconstruction topics under the supervision of [Dr. Jiancheng (JC) Yang](https://jiancheng-yang.com/) at Aalto University. My research interests include **3D Computer Vision** and **AI for Science & Health**, particularly in the field of Human-AI Collaboration and Medical Image Processing. 
 
-I held a BSc in Math and an MSc in Computer Science. My thesis work, supervised by [Dr. Chris Child](https://www.citystgeorges.ac.uk/about/people/academics/chris-child), focused on building environment models for reinforcement learning tasks using dynamic programming and features extractions from neural networks. The work was published in the [proceedings of ISNN 2025](https://link.springer.com/chapter/10.1007/978-981-95-1233-1_3). 
-
-My research interests include: **3D Computer Vision** and **AI for Science & Health**.
+I held a BSc in Math and an MSc in Computer Science. My thesis work, supervised by [Dr. Chris Child](https://www.citystgeorges.ac.uk/about/people/academics/chris-child), focused on building environment models for reinforcement learning tasks using dynamic programming and features extractions from neural networks. The work was published in the [proceedings of ISNN 2025](https://link.springer.com/chapter/10.1007/978-981-95-1233-1_3). In addition, I was also mentored by [Dr. Giacomo Tarroni](https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni) at CitAI Research Center.
 
