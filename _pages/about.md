@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an incoming PhD researcher in the Health Intelligence (HINT) Lab at Aalto University, supervised by [Dr. Jiancheng (JC) Yang](https://jiancheng-yang.com/). My research interests lie in **3D Computer Vision** and **Spatial Intelligence**, with applications in medical image processing and human-AI interaction.
+I am an incoming PhD researcher in the Health Intelligence (HINT) Lab at Aalto University, supervised by [Dr. Jiancheng (JC) Yang](https://jiancheng-yang.com/). My research interests lie in **Computer Vision** and **Spatial Intelligence**, with applications in medical image processing.
 
 Previously, I was supervised by [Dr. Giacomo Tarroni](https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni) at CitAI Research Centre, where I worked on VLM-guided methods for dataset partitioning in federated computer vision pipelines.
 
