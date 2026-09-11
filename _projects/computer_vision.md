@@ -4,7 +4,7 @@ title: Computer Vision learning projects
 description: featuring VAEs, GANs, image segmentation with U-Net, object detection, etc.
 img: assets/img/doggo.png
 importance: 2
-category: machine learning and AI
+category: fun
 related_publications: true
 ---
 
