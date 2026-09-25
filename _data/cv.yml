@@ -64,9 +64,9 @@
   contents:
     - title: Computer Vision & 3D Graphics
       items:
-        - 3D Recontruction & Digital Twin
-        - Physical Simulation and Surrogate Model in Medical AI
+        - 3D recontruction & digital twin
+        - Physical simulation and surrogate model in medical AI
     - title: Agentic AI and Workflows
       items:
         - Multi-agents agentic workflow
-        - Harness Engineering
+        - Harness engineering
