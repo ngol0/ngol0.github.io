@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of cool projects.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [machine learning and AI, coding and math]
 horizontal: false
