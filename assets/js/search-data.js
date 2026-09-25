@@ -391,10 +391,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-paper-submitted-to-isnn-2025-19th-internation-symposium-on-neural-network",
-          title: 'Paper submitted to ISNN 2025 (19th Internation Symposium on Neural Network)',
-          description: "",
-          section: "News",},{id: "news-one-paper-which-was-extended-from-my-msc-thesis-was-accepted-to-isnn-2025",
+            },},{id: "news-one-paper-which-was-extended-from-my-msc-thesis-was-accepted-to-isnn-2025",
           title: 'One paper which was extended from my MSc thesis was accepted to ISNN...',
           description: "",
           section: "News",},{id: "news-i-gave-a-presentation-at-isnn-2025-sparkles-smile",
