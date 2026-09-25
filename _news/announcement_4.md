@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper as second author was accepted to NeurIPS 2026 Dataset and Evaluation Track! 📖
+Our Federated Simulation Dataset paper (second author) was accepted to NeurIPS 2026 Evaluations and Datasets Track! 📖
