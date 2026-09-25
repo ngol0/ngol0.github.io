@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Lam Ngo
-    - name: Date of Birth
-      value: 25th January 1997
     - name: Languages
       value: English, Vietnamese
     - name: Programming Languages
