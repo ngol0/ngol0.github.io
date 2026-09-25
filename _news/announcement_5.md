@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper was submitted to NeurIPS 2026! 📖
+One paper as second author was accepted at NeurIPS 2026 Dataset and Evaluation Track! 📖
