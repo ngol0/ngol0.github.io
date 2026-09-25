@@ -26,10 +26,10 @@
 - title: Research Experience
   type: time_table
   contents:
-    - title: Research Intern
+    - title: Doctoral Researcher
       institution: Aalto University & ELLIS Institute Finland
-      year: 2025 - now
-      description: Develop methods for 3D reconstruction of cardiac structures via diffusion posterior sampling and geometric distribution learning, enabling anatomically accurate surface point cloud prediction from unseen volumetric data.
+      year: 2026 - now
+      description: Research focuses on AI for Healthcare and Medical Computer Vision
 
     - title: Research Engineer
       institution: CitAI Research Center
