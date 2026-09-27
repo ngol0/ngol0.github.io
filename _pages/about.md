@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Aalto University | Email: lam(dot)ngo(at)aalto.fi
+subtitle: Aalto University | lam(dot)ngo(at)aalto.fi
 
 profile:
   align: right
