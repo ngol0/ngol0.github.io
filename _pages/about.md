@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Doctoral Researcher @ HINT Lab | Aalto University | lam.ngo@aalto.fi
+subtitle: Aalto University | Email: lam.ngo@aalto.fi
 
 profile:
   align: right
