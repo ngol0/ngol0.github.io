@@ -460,7 +460,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6C%61%6D%6E%67%6F.%32%35%31@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%6C%61%6D.%6E%67%6F@%61%61%6C%74%6F.%66%69", "_blank");
         },
       },{
         id: 'social-github',
@@ -474,7 +474,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in//lam-ngo251", "_blank");
+          window.open("https://www.linkedin.com/in/lam-ngo251", "_blank");
         },
       },{
         id: 'social-scholar',
