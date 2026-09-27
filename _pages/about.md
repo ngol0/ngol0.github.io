@@ -1,8 +1,8 @@
 ---
 layout: about
 title: about
-permalink: /
-subtitle: Aalto University | Email: lam.ngo@aalto.fi
+permalink: 
+subtitle: Aalto University |
 
 profile:
   align: right
