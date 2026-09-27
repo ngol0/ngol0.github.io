@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Aalto University, Finland
+subtitle: lam [dot] ngo [at] aalto.fi
 
 profile:
   align: right
