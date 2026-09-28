@@ -262,7 +262,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Ngo, Ngo *, Ngo †]
+  last_name: [Ngo]
   first_name: [Lam, L.]
 
   style: apa
