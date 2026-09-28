@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper which was extended from my MSc thesis was accepted to ISNN 2025! 🎉
+One paper, "DeeP-Mod" (MSc thesis extension), was accepted to ISNN 2025.
