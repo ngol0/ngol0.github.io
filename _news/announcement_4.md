@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My co-authored **Federated Dataset Simulation** paper was accepted to **NeurIPS 2026 Evaluations and Datasets Track**! :sparkles: :smile:
+One co-authored paper, **"Federated Dataset Simulation"**, was accepted to **NeurIPS 2026 Evaluations and Datasets Track**! :sparkles: :smile:
