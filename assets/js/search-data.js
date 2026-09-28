@@ -391,11 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-which-was-extended-from-my-msc-thesis-was-accepted-to-isnn-2025",
-          title: 'One paper which was extended from my MSc thesis was accepted to ISNN...',
+            },},{id: "news-one-paper-deep-mod-msc-thesis-extension-was-accepted-to-isnn-2025",
+          title: 'One paper, “DeeP-Mod” (MSc thesis extension), was accepted to ISNN 2025',
           description: "",
           section: "News",},{id: "news-i-will-be-attending-eurips-in-copenhagen-during-dec-1-5",
           title: 'I will be attending EurIPS in Copenhagen during Dec 1-5',
+          description: "",
+          section: "News",},{id: "news-today-is-my-first-day-of-the-phd-journey-at-ellis-institute-finland-and-aalto-university",
+          title: 'Today is my first day of the PhD journey at ELLIS Institute Finland...',
           description: "",
           section: "News",},{id: "news-one-co-authored-paper-federated-dataset-simulation-was-accepted-to-neurips-2026-evaluations-and-datasets-track-sparkles-smile",
           title: 'One co-authored paper, “Federated Dataset Simulation”, was accepted to NeurIPS 2026 Evaluations and...',
