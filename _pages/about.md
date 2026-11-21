@@ -26,6 +26,6 @@ latest_posts:
 
 I am a PhD student in the Health Intelligence (HINT) Lab at ELLIS Institute Finland & Aalto University, supervised by [Dr. Jiancheng (JC) Yang](https://jiancheng-yang.com/). My current research focuses on **medical computer vision** and **AI for healthcare**.
 
-Previously, I was supervised by [Dr. Giacomo Tarroni](https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni) at CitAI Research Centre, where I used VLMs to generate simulated datasets for **federated learning** in **computer vision** tasks.
+Previously, I was supervised by [Dr. Giacomo Tarroni](https://www.citystgeorges.ac.uk/about/people/academics/giacomo-tarroni) at CitAI Research Centre, where I worked on VLM-guided method to generate simulated datasets for **federated learning** in **computer vision** tasks.
 
 I hold a BSc in Mathematics and an MSc in Computer Science. My MSc thesis work, supervised by [Dr. Chris Child](https://www.citystgeorges.ac.uk/about/people/academics/chris-child), focused on building environment models for reinforcement learning tasks. 
